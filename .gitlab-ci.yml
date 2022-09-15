@@ -1,5 +1,5 @@
 pages:
-  image: debian:bullseye
+  image: debian:bullseye-slim
   before_script:
     - apt update -y
     - apt install -y python3 python3-yaml
