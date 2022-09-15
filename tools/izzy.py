@@ -30,7 +30,7 @@ if __name__ == "__main__":
         with urllib.request.urlopen(libfileurl) as f:
             for line in f:
                 data = json.loads(line)
-                if not data.get('anti') and not data.get('license'):
+                if not data.get('anti') and data.get('license'):
                     continue
                 name = data['id'].strip('/').replace('/', '.')
                 out = dict()
