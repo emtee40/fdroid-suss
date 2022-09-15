@@ -1,5 +1,7 @@
 .ropeproject/
 .*.swp
 
+public/
+
 izzy/
 izzy.json
