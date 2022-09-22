@@ -1,0 +1,4 @@
+gradle_signatures:
+  - com.google.android.play:app-update
+  - com.google.android.play:core.*
+license: NonFree

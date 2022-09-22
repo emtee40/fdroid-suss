@@ -1,0 +1,3 @@
+gradle_signatures:
+  - io.objectbox:objectbox-gradle-plugin
+license: NonFree

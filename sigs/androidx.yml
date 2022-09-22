@@ -1,0 +1,4 @@
+gradle_signatures:
+  - androidx.navigation:navigation-dynamic-features
+  - androidx.work:work-gcm
+license: NonFree

@@ -1,0 +1,4 @@
+gradle_signatures:
+  - com.google.android.exoplayer:extension-cast
+  - com.google.android.exoplayer:extension-cronet
+license: NonFree
