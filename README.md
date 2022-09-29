@@ -8,12 +8,14 @@ This project contains signature definitions used in `fdroid scanner` command.
 ## Overview
 
 The signature definitions in this project are stored in `.yml` files, analogous
-to fdroiddata. The data from the YAML files gets aggregated into consolidated
-JSON files.  The scripts for this process are located in the `./tools` folder
-in this project.  We use GitLab Pages for assembling these JSON files and
-making them easily accessible.
+to fdroiddata. ([signature
+definitons](https://gitlab.com/uniqx/fdroid-scanner-signatures/-/tree/master/sigs))
 
-https://uniqx.gitlab.io/fdroid-scanner-signatures/
+The data from these YAML files gets aggregated into the JSON file format
+`fdroid scanner` is using.  The scripts for this process are located in the
+`./tools` folder in this project.  We use GitLab Pages for assembling these
+JSON files and making them easily accessible. ([generated cache
+files](https://uniqx.gitlab.io/fdroid-scanner-signatures))
 
 
 ## Data Format of Signature Definitions
