@@ -20,7 +20,7 @@ def parseyml(filepath):
 
 if __name__ == '__main__':
     outdir = Path('public')
-    os.makedirs(outdir, exist_ok=True)
+    outdir.mkdir(exist_ok=True)
 
     for cachefilename, sigdir in SIG_SOURCES.items():
         print('assembling', cachefilename, '...', end=' ')
@@ -29,6 +29,7 @@ if __name__ == '__main__':
             'version': 1,
             'signatures': {}
         }
+        sigdir.mkdir(exist_ok=True)
         for name, data in [(x, parseyml(sigdir / x)) for x in os.listdir(sigdir) if x.endswith('.yml')]:
             cache['signatures'][name[:-4]] = data
         with open(outdir / cachefilename, 'w', encoding='utf8') as f:
