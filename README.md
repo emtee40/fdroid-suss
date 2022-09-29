@@ -70,7 +70,7 @@ Same as `code_signatures` but issues a warning instead of an error.
 
 example:
 
-```
+```yaml
 warn_code_signatures:
  - com/demo/.*metrics
 ```
@@ -79,7 +79,7 @@ warn_code_signatures:
 
 Same as `gradle_signatures` but issues a warning instead of an error.
 
-```
+```yaml
 warn_gradle_signatures:
  - com\.example:ads
 ```
