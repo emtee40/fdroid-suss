@@ -12,10 +12,13 @@ to fdroiddata. ([signature
 definitons](https://gitlab.com/uniqx/fdroid-scanner-signatures/-/tree/master/sigs))
 
 The data from these YAML files gets aggregated into the JSON file format
-`fdroid scanner` is using.  The scripts for this process are located in the
-`./tools` folder in this project.  We use GitLab Pages for assembling these
-JSON files and making them easily accessible. ([generated cache
-files](https://uniqx.gitlab.io/fdroid-scanner-signatures))
+`fdroid scanner` is using.  F-Droid Scanner can consume multiple of these JSON
+files.  We use GitLab Pages for assembling these JSON files and making them
+easily accessible. ([generated json
+files](https://uniqx.gitlab.io/fdroid-scanner-signatures))  The scripts for
+this process are located in the `./tools` folder in this project.  We can also
+convert signatures from 3rd party sources (e.g. izzy) and convert them to
+F-Droid Scanners JSON format.
 
 
 ## Data Format of Signature Definitions
