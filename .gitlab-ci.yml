@@ -1,5 +1,29 @@
+
+image: debian:bullseye-slim
+
+stages:
+  - test
+  - deploy
+
+lint:
+  stage: test
+  before_script:
+    - apt update -y
+    - apt install -y yamllint
+  script:
+    - yamllint */*.yml
+
+test:
+  stage: test
+  before_script:
+    - apt update -y
+    - apt install -y python3 python3-pytest python3-yaml
+  script:
+    - tools/buildcache.py
+    - pytest-3
+
 pages:
-  image: debian:bullseye-slim
+  stage: deploy
   before_script:
     - apt update -y
     - apt install -y python3 python3-yaml
