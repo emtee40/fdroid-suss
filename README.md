@@ -9,13 +9,13 @@ This project contains signature definitions used in `fdroid scanner` command.
 
 The signature definitions in this project are stored in `.yml` files, analogous
 to fdroiddata. ([signature
-definitions](https://gitlab.com/fdroid/suss/-/tree/master/suss))
+definitions](https://gitlab.com/fdroid/fdroid-suss/-/tree/master/suss))
 
 The data from these YAML files gets aggregated into the JSON file format
 `fdroid scanner` is using.  F-Droid Scanner can consume multiple of these JSON
 files.  We use GitLab Pages for assembling these JSON files and making them
 easily accessible. ([generated json
-files](https://fdroid.gitlab.io/suss))  The scripts for
+files](https://fdroid.gitlab.io/fdroid-suss))  The scripts for
 this process are located in the `./tools` folder in this project.  We can also
 convert signatures from 3rd party sources (e.g. izzy) and convert them to
 F-Droid Scanners JSON format.
