@@ -9,7 +9,7 @@ import yaml
 
 SIG_SOURCES = {
     'izzy.json': Path('izzy'),
-    'sigs.json': Path('sigs'),
+    'suss.json': Path('suss'),
 }
 
 

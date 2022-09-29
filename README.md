@@ -1,4 +1,4 @@
-# F-Droid Scanner Signatures
+# SUSS - Suspicious or Unwanted Software Signatures
 
 NOTE: this project is just a preview, name and links will change should this
 project become part of F-Droid.
@@ -9,13 +9,13 @@ This project contains signature definitions used in `fdroid scanner` command.
 
 The signature definitions in this project are stored in `.yml` files, analogous
 to fdroiddata. ([signature
-definitons](https://gitlab.com/uniqx/fdroid-scanner-signatures/-/tree/master/sigs))
+definitions](https://gitlab.com/fdroid/suss/-/tree/master/suss))
 
 The data from these YAML files gets aggregated into the JSON file format
 `fdroid scanner` is using.  F-Droid Scanner can consume multiple of these JSON
 files.  We use GitLab Pages for assembling these JSON files and making them
 easily accessible. ([generated json
-files](https://uniqx.gitlab.io/fdroid-scanner-signatures))  The scripts for
+files](https://fdroid.gitlab.io/suss))  The scripts for
 this process are located in the `./tools` folder in this project.  We can also
 convert signatures from 3rd party sources (e.g. izzy) and convert them to
 F-Droid Scanners JSON format.
