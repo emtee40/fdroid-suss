@@ -36,7 +36,7 @@ example:
 
 ```yaml
 code_signatures:
-  - com/example/analytics
+  - com/demo/analytics
 ```
 
 ### `gradle_signatures`
@@ -49,7 +49,7 @@ example:
 ```yaml
 gralde_signatures:
  - example\.com:evil-lib
- - example\.com:bad-lib
+ - example\.com:bad.*lib
 ```
 
 ### `license`
@@ -62,6 +62,26 @@ example:
 
 ```yaml
 license: NonFree
+```
+
+### `warn_code_signatures`
+
+Same as `code_signatures` but issues a warning instead of an error.
+
+example:
+
+```
+warn_code_signatures:
+ - com/demo/.*metrics
+```
+
+### `warn_gradle_signatures`
+
+Same as `gradle_signatures` but issues a warning instead of an error.
+
+```
+warn_gradle_signatures:
+ - com\.example:ads
 ```
 
 ## Cache Data Format
@@ -82,13 +102,19 @@ example:
     "example.com": {
       "gradle_signatures": [
         "com\\\\.example:evil-lib",
-        "com\\\\.example:bad-lib"
+        "com\\\\.example:bad.*lib"
+      ],
+      "warn_gradle_signatures": [
+        "com\\\\.example:ads",
       ],
       "license": "NonFree"
     },
-    "com.google.analytics": {
+    "demo.com": {
       "code_signatures": [
-        "com/google/analytics"
+        "com/demo/analytics"
+      ],
+      "warn_code_signatures": [
+        "com/demo/.*metrics"
       ],
       "license": "NonFree"
     }
