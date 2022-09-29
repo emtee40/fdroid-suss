@@ -52,7 +52,7 @@ signatures.
 example:
 
 ```yaml
-gralde_signatures:
+gradle_signatures:
  - example\.com:evil-lib
  - example\.com:bad.*lib
 ```
