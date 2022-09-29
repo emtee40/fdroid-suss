@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
-import json
 import os
 import re
+import yaml
 from pathlib import Path
 
 def test_suspects_found():
-    os.chdir(Path(__file__).parent.parent / 'public')
-    with open('suss.json') as fp:
-        suss = json.load(fp)
+    signatures = []
+    for f in (Path(__file__).parent.parent / 'suss').glob('*.yml'):
+        with open(f) as fp:
+            signatures.append(yaml.safe_load(fp))
     for line in [
         "	compile 'com.google.firebase:firebase-crash:11.0.8'",
         "	compile 'com.google.firebase:firebase-core:11.0.8'",
@@ -37,7 +38,7 @@ def test_suspects_found():
         'com.google.firebase:firebase-storage',
     ]:
         matches = []
-        for name, d in suss['signatures'].items():
+        for d in signatures:
             gradle_signatures = d.get('gradle_signatures', [])
             for s in  gradle_signatures:
                 m = re.search(s, line)
@@ -66,7 +67,7 @@ def test_suspects_found():
         'com.yandex.android:authsdk',
     ]:
         matches = []
-        for name, d in suss['signatures'].items():
+        for d in signatures:
             gradle_signatures = d.get('gradle_signatures', [])
             for s in  gradle_signatures:
                 m = re.search(s, line)
