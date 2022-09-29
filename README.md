@@ -16,7 +16,7 @@ making them easily accessible.
 https://uniqx.gitlab.io/fdroid-scanner-signatures/
 
 
-## Data Format
+## Data Format of Signature Definitions
 
 The YAML files in this project should follow this structure. Every YAML file
 should roughly correspond to one software dependency, SaaS platform, etc..
@@ -84,7 +84,7 @@ warn_gradle_signatures:
  - com\.example:ads
 ```
 
-## Cache Data Format
+## Cache-File Data Format
 
 The cache data format is directly derived from the Data Format specified above.
 It's basically combining all YAML files in a folder into a single JSON file
