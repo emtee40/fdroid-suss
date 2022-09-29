@@ -5,6 +5,14 @@ stages:
   - test
   - deploy
 
+lint:
+  stage: test
+  before_script:
+    - apt update -y
+    - apt install -y yamllint
+  script:
+    - yamllint */*.yml
+
 test:
   stage: test
   before_script:
