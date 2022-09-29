@@ -1,0 +1,1 @@
+cache_duration: 86400  # (in seconds) wait 1 day for fetching signatures from cache again
