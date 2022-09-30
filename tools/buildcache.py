@@ -31,7 +31,7 @@ if __name__ == '__main__':
     for cachefilename, sigdir in SIG_SOURCES.items():
         print('assembling', cachefilename, '...', end=' ')
         cache = {
-            'timestamp': datetime.now().astimezone().isoformat(),
+            'timestamp': datetime.utcnow().timestamp(),
             'version': 1,
             'signatures': {},
             'cache_duration': config['cache_duration'],
