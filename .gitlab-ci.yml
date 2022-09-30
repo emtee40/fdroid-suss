@@ -13,6 +13,15 @@ lint:
   script:
     - yamllint */*.yml
 
+validate:
+  stage: test
+  before_script:
+    - apt update -y
+    - apt install -y npm
+    - npm install -g ajv-cli
+  script:
+    - find suss/ -type f -name '*.yml' | xargs -n 1 ajv validate -s schemas/schema.json -d
+
 test:
   stage: test
   before_script:

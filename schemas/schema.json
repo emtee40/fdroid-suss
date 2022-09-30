@@ -1,0 +1,82 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://f-droid.org/suss.yml",
+    "title": "",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "id": {
+            "description": "",
+            "type": "integer"
+        },
+        "name": {
+            "description": "",
+            "type": "string"
+        },
+        "description": {
+            "description": "",
+            "type": "string"
+        },
+        "creation_date": {
+            "description": "",
+            "type": "string"
+        },
+        "website": {
+            "description": "",
+            "type": "string"
+        },
+        "categories": {
+            "description": "",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "documentation": {
+            "description": "",
+            "type": "array"
+        },
+        "code_signatures": {
+            "description": "A list of (python) regular expressions. Binaries (e.g. APK files) will be scanned for these signatures.",
+            "$ref": "#/definitions/ArrayOfUniqueString"
+        },
+        "gradle_signatures": {
+            "description": "A list of (python) regular expressions. Gradle files will be scanned for these signatures.",
+            "$ref": "#/definitions/ArrayOfUniqueString"
+        },
+        "network_signatures": {
+            "description": "A list of (python) regular expressions. Gradle files will be scanned for these signatures.",
+            "$ref": "#/definitions/ArrayOfUniqueString"
+        },
+        "license": {
+            "description": "The license of this software dependency. Use SPDX identifier for FOSS dependencies. For proprietary dependencies just put NonFree as license value.",
+            "type": "string"
+        },
+        "warn_code_signatures": {
+            "description": "Same as code_signatures but issues a warning instead of an error.",
+            "$ref": "#/definitions/ArrayOfUniqueString"
+        },
+        "warn_gradle_signatures": {
+            "description": "Same as gradle_signatures but issues a warning instead of an error.",
+            "$ref": "#/definitions/ArrayOfUniqueString"
+        },
+        "warn_network_signatures": {
+            "description": "",
+            "$ref": "#/definitions/ArrayOfUniqueString"
+        },
+        "maintainer_notes": {
+            "description": "",
+            "type": "string"
+        }
+    },
+    "additionalProperties": true,
+    "definitions": {
+        "ArrayOfUniqueString": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}
