@@ -5,6 +5,7 @@ import re
 import yaml
 from pathlib import Path
 
+
 def test_suspects_found():
     signatures = []
     for f in (Path(__file__).parent.parent / 'suss').glob('*.yml'):
@@ -48,12 +49,11 @@ def test_suspects_found():
         matches = []
         for d in signatures:
             gradle_signatures = d.get('gradle_signatures', [])
-            for s in  gradle_signatures:
+            for s in gradle_signatures:
                 m = re.search(s, line)
                 if m:
                     matches.append(s)
         assert matches != [], line + ' should have matches'
-
 
     # These are free exceptions to the above rules
     # 'firebase-jobdispatcher', https://github.com/firebase/firebase-jobdispatcher-android/blob/master/LICENSE
@@ -79,7 +79,7 @@ def test_suspects_found():
         matches = []
         for d in signatures:
             gradle_signatures = d.get('gradle_signatures', [])
-            for s in  gradle_signatures:
+            for s in gradle_signatures:
                 m = re.search(s, line)
                 if m:
                     matches.append(s)

@@ -5,6 +5,13 @@ stages:
   - test
   - deploy
 
+black:
+  stage: test
+  script:
+    - apt-get update -y
+    - apt-get -qy install black
+    - black --check --diff --color */*.py
+
 lint:
   stage: test
   before_script:
