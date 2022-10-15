@@ -1,4 +1,15 @@
+name: Google Play Core
+documentation:
+  - https://developer.android.com/guide/playcore
 gradle_signatures:
   - com.google.android.play:app-update
+  - com.google.android.play:asset-delivery
   - com.google.android.play:core.*
+  - com.google.android.play:feature-delivery
+  - com.google.android.play:review
+code_signatures:
+  - com/google/android/play/core
 license: NonFree
+anti_features:
+  - NonFreeDep
+  - NonFreeNet
