@@ -132,3 +132,13 @@ example:
 The key names for entries in `"signatures"` correspond to YAML file names. So
 for the above example would be the result of two files called:
 _example.com.yml_ and _demo.com.yml_.
+
+## License
+
+Copyright (C) 2022 F-Droid team
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>
