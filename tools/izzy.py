@@ -24,7 +24,10 @@ if __name__ == "__main__":
     outdir = Path('izzy')
     os.makedirs(outdir, exist_ok=True)
 
-    for libfileurl in ['https://gitlab.com/IzzyOnDroid/repo/-/raw/master/lib/libinfo.jsonl', 'https://gitlab.com/IzzyOnDroid/repo/-/raw/master/lib/libsmali.jsonl']:
+    for libfileurl in [
+        'https://gitlab.com/IzzyOnDroid/repo/-/raw/master/lib/libinfo.jsonl',
+        'https://gitlab.com/IzzyOnDroid/repo/-/raw/master/lib/libsmali.jsonl',
+    ]:
         cnt = 0
         print('processing \'', libfileurl, '\' ...', end=' ')
         with urllib.request.urlopen(libfileurl) as f:

@@ -2,8 +2,11 @@
 
 import os
 import re
+import validators
+import unittest
 import yaml
 from pathlib import Path
+
 
 def test_suspects_found():
     signatures = []
@@ -48,12 +51,11 @@ def test_suspects_found():
         matches = []
         for d in signatures:
             gradle_signatures = d.get('gradle_signatures', [])
-            for s in  gradle_signatures:
+            for s in gradle_signatures:
                 m = re.search(s, line)
                 if m:
                     matches.append(s)
         assert matches != [], line + ' should have matches'
-
 
     # These are free exceptions to the above rules
     # 'firebase-jobdispatcher', https://github.com/firebase/firebase-jobdispatcher-android/blob/master/LICENSE
@@ -79,8 +81,69 @@ def test_suspects_found():
         matches = []
         for d in signatures:
             gradle_signatures = d.get('gradle_signatures', [])
-            for s in  gradle_signatures:
+            for s in gradle_signatures:
                 m = re.search(s, line)
                 if m:
                     matches.append(s)
         assert matches == [], line + ' should not have matches'
+
+
+class TestValidate(unittest.TestCase):
+    def setUp(self):
+        self.all_yml = (Path(__file__).parent.parent / 'suss').glob('*.yml')
+
+    def test_validate_all_regexs(self):
+        """Compile all regexs and try a search"""
+        for f in self.all_yml:
+            with open(f) as fp:
+                profile = yaml.safe_load(fp)
+            for k in (
+                'api_key_ids',
+                'artifact_id',
+                'code_signatures',
+                'gradle_signatures',
+                'group_id',
+                'network_signatures',
+            ):
+                if k in profile:
+                    v = profile.get(k)
+                    f_rel = f.relative_to(os.getcwd())
+                    if isinstance(v, str):
+                        out = '%s: %s: %s' % (f_rel, k, v)
+                        with self.subTest(out):
+                            self.assertIsNotNone(re.compile(v))
+                    elif isinstance(v, str):
+                        for pat in v:
+                            out = '%s: %s: %s' % (f_rel, k, pat)
+                            with self.subTest(out):
+                                self.assertIsNotNone(re.compile(pat))
+
+    def test_validate_all_urls(self):
+        """Validate all fields that should contain URLs"""
+
+        def _raise_if_bad(f, s):
+            with self.subTest('%s' % f.relative_to(os.getcwd())):
+                self.assertTrue(validators.url(s, public=True))
+
+        for f in self.all_yml:
+            with open(f) as fp:
+                profile = yaml.safe_load(fp)
+            for k in ('documentation', 'maven_repository', 'website'):
+                v = profile.get(k)
+                if v is None:
+                    continue
+                elif isinstance(v, str):
+                    _raise_if_bad(f, v)
+                elif isinstance(v, list):
+                    for i in v:
+                        _raise_if_bad(f, i)
+                else:
+                    _raise_if_bad(f, v)
+
+
+if __name__ == "__main__":
+    test_suspects_found()
+    os.chdir(Path(__file__).parent.parent)
+    newSuite = unittest.TestSuite()
+    newSuite.addTest(unittest.makeSuite(TestValidate))
+    unittest.main(failfast=False)
