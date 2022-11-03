@@ -1,8 +1,8 @@
 gradle_signatures:
-  - com\.mapbox(?!\.mapboxsdk:mapbox-sdk-services)
+  - com\.mapbox(?!\.mapboxsdk:mapbox-sdk-(services|geojson|turf):([3-5]))
 
 license: NonFree
 
 MaintainerNotes: |
-  com.mapbox.mapboxsdk:mapbox-sdk-services seems to be fully under this license:
-  https://github.com/mapbox/mapbox-java/blob/main/LICENSE
+  It seems that all libs in https://github.com/mapbox/mapbox-java is fully FOSS
+  since 3.0.0.
