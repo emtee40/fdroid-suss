@@ -64,6 +64,7 @@ def test_suspects_found():
     # 'com.yandex.android:authsdk', https://github.com/yandexmobile/yandex-login-sdk-android/blob/master/LICENSE.txt
     # 'com.hypertrack:hyperlog', https://github.com/hypertrack/hyperlog-android#license
     # 'com.mapbox.mapboxsdk:mapbox-sdk-services',  # https://github.com/mapbox/mapbox-java/blob/main/LICENSE
+    # 'com.github.johan12345' https://github.com/johan12345/EVMap/blob/19c0f311ad/app/build.gradle#L199-L213
     for line in [
         "    compile 'com.firebase:firebase-jobdispatcher:0.8.4'",
         "    compile 'com.firebaseui:firebase-ui-auth:3.1.3'",
@@ -77,6 +78,8 @@ def test_suspects_found():
         'com.mapbox.mapboxsdk:mapbox-sdk-services:5.0.0',
         'com.segment.analytics.android.integrations:firebase',
         'com.yandex.android:authsdk',
+        'implementation("com.github.johan12345.AnyMaps:anymaps-mapbox:$anyMapsVersion")',
+        'com.github.johan12345:mapbox-events-android:a21c324501',
     ]:
         matches = []
         for d in signatures:
