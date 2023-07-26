@@ -1,4 +1,5 @@
 gradle_signatures:
   - androidx.navigation:navigation-dynamic-features
   - androidx.work:work-gcm
+  - androidx.media3:media3-datasource-cronet
 license: NonFree
