@@ -7,6 +7,8 @@ gradle_signatures:
   - com.google.android.play:core.*
   - com.google.android.play:feature-delivery
   - com.google.android.play:review
+  - androidx.navigation:navigation-dynamic-features
+  - com.github.SanojPunchihewa:InAppUpdater
 code_signatures:
   - /com/google/android/play/core/
 license: NonFree

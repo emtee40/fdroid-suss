@@ -1,5 +1,9 @@
+name: Firebase
+documentation:
+  - https://www.firebase.com
 gradle_signatures:
   - com(\.google)?\.firebase[.:](?!firebase-jobdispatcher|geofire-java)
+  - com.microsoft.appcenter:appcenter-push
 code_signatures:
   - /com/google/firebase/
 license: NonFree

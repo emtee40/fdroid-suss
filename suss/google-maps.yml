@@ -1,14 +1,7 @@
 name: Google Maps
-documentation:
-  - https://developers.google.com/maps/documentation/android-sdk/start
 api_key_ids:
   - com\.google\.android\.geo\.API_KEY
   - com\.google\.android\.maps\.v2\.API_KEY
-code_signatures:
-  - com.google.android.gms.maps.
-gradle_signatures:
-  - com\.google\.android\.libraries\.mapsplatform\.
-  - com\.google\.android\.gms:play-services-maps
 license: NonFree
 anti_features:
   - NonFreeDep
