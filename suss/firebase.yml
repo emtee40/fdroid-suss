@@ -1,5 +1,7 @@
 gradle_signatures:
   - com(\.google)?\.firebase[.:](?!firebase-jobdispatcher|geofire-java)
+code_signatures:
+  - /com/google/firebase/
 license: NonFree
 gradle_signatures_positive_examples:
   - "	compile 'com.google.firebase:firebase-crash:11.0.8'"

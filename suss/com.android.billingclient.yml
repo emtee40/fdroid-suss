@@ -1,3 +1,5 @@
 gradle_signatures:
   - com.android.billingclient
+code_signatures:
+  - /com/android/billingclient/
 license: NonFree
