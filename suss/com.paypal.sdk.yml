@@ -1,0 +1,5 @@
+gradle_signatures:
+  - com.paypal.sdk
+code_signatures:
+  - /com/paypal/
+license: NonFree

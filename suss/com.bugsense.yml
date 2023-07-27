@@ -1,0 +1,5 @@
+gradle_signatures:
+  - com.bugsense
+code_signatures:
+  - /com/bugsense/
+license: NonFree
