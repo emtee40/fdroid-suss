@@ -1,3 +1,17 @@
+gradle_signatures:
+  - com.google.android.gms
+  - androidx.media3:media3-cast
+  - androidx.media3:media3-datasource-cronet
+  - androidx.work:work-gcm
+  - com.google.android.exoplayer:extension-cast
+  - com.google.android.exoplayer:extension-cronet
+  - com.evernote:android-job
+  # com.evernote:android-job is replaced in since 2.3.0
+  - com.cloudinary:cloudinary-android.*:2\.[12]\.
+  - com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender
+  - com.yayandroid:locationmanager
+  - play-services
+  - xyz.belvi.mobilevision:barcodescanner
 code_signatures:
-  - com/google/android/gms
+  - /com/google/android/gms/
 license: NonFree

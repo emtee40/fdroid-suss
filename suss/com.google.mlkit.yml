@@ -1,3 +1,5 @@
 gradle_signatures:
   - com.google.mlkit
+code_signatures:
+  - /com/google/mlkit/
 license: NonFree

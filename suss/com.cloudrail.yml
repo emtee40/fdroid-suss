@@ -1,0 +1,5 @@
+gradle_signatures:
+  - com.cloudrail
+code_signature:
+  - /com/cloudrail/
+license: NonFree

@@ -1,5 +1,5 @@
 gradle_signatures:
-  - com.umeng.umsdk
+  - com.bugsense
 code_signatures:
-  - /com/umeng/umsdk/
+  - /com/bugsense/
 license: NonFree

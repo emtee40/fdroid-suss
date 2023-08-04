@@ -1,0 +1,5 @@
+gradle_signatures:
+  - com.google.android.libraries
+code_signatures:
+  - /com/google/android/libraries/
+license: NonFree

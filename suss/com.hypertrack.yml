@@ -1,6 +1,8 @@
 license: NonFree
 gradle_signatures:
-  - com\.hypertrack(?!:hyperlog)
+  - com.hypertrack(?!:hyperlog)
+code_signatures:
+  - /com/hypertrack/(?!:hyperlog)
 gradle_signatures_negative_examples:
   # 'com.hypertrack:hyperlog', https://github.com/hypertrack/hyperlog-android#license
   - com.hypertrack:hyperlog

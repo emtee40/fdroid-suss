@@ -1,3 +1,5 @@
 gradle_signatures:
   - com.tencent.bugly
+code_signatures:
+  - /com/tencent/bugly/
 license: NonFree
