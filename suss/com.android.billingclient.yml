@@ -3,6 +3,7 @@ gradle_signatures:
   - com.google.androidbrowserhelper:billing
   - com.anjlab.android.iab.v3:library
   - com.github.penn5:donations
+  - me.proton.core:payment-iap
 code_signatures:
   - /com/android/billingclient/
 license: NonFree
