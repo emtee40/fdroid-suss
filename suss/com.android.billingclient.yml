@@ -5,5 +5,5 @@ gradle_signatures:
   - com.github.penn5:donations
   - me.proton.core:payment-iap
 code_signatures:
-  - /com/android/billingclient/
+  - com/android/billingclient
 license: NonFree

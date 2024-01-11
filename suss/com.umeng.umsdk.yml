@@ -1,5 +1,5 @@
 gradle_signatures:
   - com.umeng.umsdk
 code_signatures:
-  - /com/umeng/umsdk/
+  - com/umeng/umsdk
 license: NonFree

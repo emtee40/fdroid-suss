@@ -1,5 +1,5 @@
 gradle_signatures:
   - com.onesignal:OneSignal
 code_signatures:
-  - /com/onesignal/
+  - com/onesignal
 license: NonFree

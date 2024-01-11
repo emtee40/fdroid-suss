@@ -1,5 +1,5 @@
 gradle_signatures:
   - com.paypal.sdk
 code_signatures:
-  - /com/paypal/
+  - com/paypal
 license: NonFree

@@ -14,5 +14,5 @@ gradle_signatures:
   - play-services
   - xyz.belvi.mobilevision:barcodescanner
 code_signatures:
-  - /com/google/android/gms/
+  - com/google/android/gms
 license: NonFree

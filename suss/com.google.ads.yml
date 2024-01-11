@@ -3,5 +3,5 @@ gradle_signatures:
   - com.google.android.exoplayer:extension-ima
   - androidx.media3:media3-exoplayer-ima
 code_signatures:
-  - /com/google/ads/
+  - com/google/ads
 license: NonFree

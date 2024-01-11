@@ -1,5 +1,5 @@
 gradle_signatures:
   - com.flurry.android
 code_signature:
-  - /com/flurry/
+  - com/flurry
 license: NonFree

@@ -1,5 +1,5 @@
 gradle_signatures:
   - io.github.sinaweibosdk
 code_signatures:
-  - /com/sina/
+  - com/sina
 license: NonFree

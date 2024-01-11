@@ -1,5 +1,5 @@
 gradle_signatures:
   - crashlytics
 code_signatures:
-  - /com/crashlytics/
+  - com/crashlytics
 license: NonFree

@@ -10,7 +10,7 @@ gradle_signatures:
   - androidx.navigation:navigation-dynamic-features
   - com.github.SanojPunchihewa:InAppUpdater
 code_signatures:
-  - /com/google/android/play/core/
+  - com/google/android/play/core
 license: NonFree
 anti_features:
   - NonFreeDep

@@ -1,5 +1,5 @@
 gradle_signatures:
   - com.github.junrar:junrar
 code_signatures:
-  - /com/github/junrar/
+  - com/github/junrar
 license: NonFree

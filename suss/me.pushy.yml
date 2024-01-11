@@ -1,5 +1,5 @@
 gradle_signatures:
   - me.pushy
 code_signatures:
-  - /me/pushy/
+  - me/pushy
 license: NonFree

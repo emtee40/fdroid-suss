@@ -2,7 +2,7 @@ license: NonFree
 gradle_signatures:
   - com\.yandex\.android(?!:authsdk)
 code_signatures:
-  - /com/yandex/android/(?!:authsdk)
+  - com/yandex/android/(?!:authsdk)
 gradle_signatures_negative_examples:
   # 'com.yandex.android:authsdk', https://github.com/yandexmobile/yandex-login-sdk-android/blob/master/LICENSE.txt
   - com.yandex.android:authsdk

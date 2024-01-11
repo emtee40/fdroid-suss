@@ -1,6 +1,6 @@
 Name: ObjectBox Database
 code_signatures:
-  - /io/objectbox/
+  - io/objectbox
 gradle_signatures:
   - io.objectbox:objectbox-gradle-plugin
 license: NonFree

@@ -1,5 +1,5 @@
 gradle_signatures:
   - com.bugsense
 code_signatures:
-  - /com/bugsense/
+  - com/bugsense
 license: NonFree
