@@ -18,7 +18,6 @@ def selective_representer(dumper, data):
 
 
 if __name__ == "__main__":
-
     yaml.add_representer(str, selective_representer)
 
     outdir = Path('izzy')

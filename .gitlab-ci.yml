@@ -1,5 +1,4 @@
-
-image: debian:bullseye-slim
+image: debian:bookworm-slim
 
 stages:
   - test
