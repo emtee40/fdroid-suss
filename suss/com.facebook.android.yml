@@ -1,6 +1,4 @@
 gradle_signatures:
   - com.facebook.android
-code_signatures:
-  - com/facebook
 # https://github.com/facebook/facebook-android-sdk/blob/main/LICENSE.txt
 license: NonFree
