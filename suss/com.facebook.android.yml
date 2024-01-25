@@ -1,4 +1,73 @@
 gradle_signatures:
   - com.facebook.android
+# Generated with `ls */src/main/java/com/facebook/* -d | sed -e 's|.*/src/main/java/|  - |g' -e 's/\.kt//g' | sort -u`
+# from https://github.com/facebook/facebook-android-sdk
+code_signatures:
+  - com/facebook/AccessToken
+  - com/facebook/AccessTokenCache
+  - com/facebook/AccessTokenManager
+  - com/facebook/AccessTokenSource
+  - com/facebook/AccessTokenTracker
+  - com/facebook/all
+  - com/facebook/appevents
+  - com/facebook/applinks
+  - com/facebook/AuthenticationToken
+  - com/facebook/AuthenticationTokenCache
+  - com/facebook/AuthenticationTokenClaims
+  - com/facebook/AuthenticationTokenHeader
+  - com/facebook/AuthenticationTokenManager
+  - com/facebook/AuthenticationTokenTracker
+  - com/facebook/bolts
+  - com/facebook/CallbackManager
+  - com/facebook/common
+  - com/facebook/core
+  - com/facebook/CurrentAccessTokenExpirationBroadcastReceiver
+  - com/facebook/CustomTabActivity
+  - com/facebook/CustomTabMainActivity
+  - com/facebook/devicerequests
+  - com/facebook/FacebookActivity
+  - com/facebook/FacebookAuthorizationException
+  - com/facebook/FacebookBroadcastReceiver
+  - com/facebook/FacebookButtonBase
+  - com/facebook/FacebookCallback
+  - com/facebook/FacebookContentProvider
+  - com/facebook/FacebookDialog
+  - com/facebook/FacebookDialogException
+  - com/facebook/FacebookException
+  - com/facebook/FacebookGraphResponseException
+  - com/facebook/FacebookOperationCanceledException
+  - com/facebook/FacebookPowerMockTestCase
+  - com/facebook/FacebookRequestError
+  - com/facebook/FacebookSdk
+  - com/facebook/FacebookSdkNotInitializedException
+  - com/facebook/FacebookSdkVersion
+  - com/facebook/FacebookServiceException
+  - com/facebook/FacebookTestCase
+  - com/facebook/FacebookTestUtility
+  - com/facebook/gamingservices
+  - com/facebook/GraphRequest
+  - com/facebook/GraphRequestAsyncTask
+  - com/facebook/GraphRequestBatch
+  - com/facebook/GraphResponse
+  - com/facebook/HttpMethod
+  - com/facebook/internal
+  - com/facebook/LegacyTokenHelper
+  - com/facebook/LoggingBehavior
+  - com/facebook/login
+  - com/facebook/LoginStatusCallback
+  - com/facebook/messenger
+  - com/facebook/MockSharedPreference
+  - com/facebook/Profile
+  - com/facebook/ProfileCache
+  - com/facebook/ProfileManager
+  - com/facebook/ProfileTracker
+  - com/facebook/ProgressNoopOutputStream
+  - com/facebook/ProgressOutputStream
+  - com/facebook/RequestOutputStream
+  - com/facebook/RequestProgress
+  - com/facebook/share
+  - com/facebook/UserSettingsManager
+  - com/facebook/util
+  - com/facebook/WebDialog
 # https://github.com/facebook/facebook-android-sdk/blob/main/LICENSE.txt
 license: NonFree
