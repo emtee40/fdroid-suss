@@ -1,0 +1,83 @@
+name: AmazonAWS
+gradle_signatures:
+  - com.amazonaws:amazon-kinesis-aggregator
+  - com.amazonaws:amazon-kinesis-connectors
+  - com.amazonaws:amazon-kinesis-deaggregator
+  - com.amazonaws:aws-android-sdk-apigateway-core
+  - com.amazonaws:aws-android-sdk-auth-core
+  - com.amazonaws:aws-android-sdk-auth-facebook
+  - com.amazonaws:aws-android-sdk-auth-ui
+  - com.amazonaws:aws-android-sdk-auth-userpools
+  - com.amazonaws:aws-android-sdk-cognito
+  - com.amazonaws:aws-android-sdk-cognitoauth
+  - com.amazonaws:aws-android-sdk-cognitoidentityprovider-asf
+  - com.amazonaws:aws-android-sdk-comprehend
+  - com.amazonaws:aws-android-sdk-core
+  - com.amazonaws:aws-android-sdk-ddb
+  - com.amazonaws:aws-android-sdk-ddb-document
+  - com.amazonaws:aws-android-sdk-iot
+  - com.amazonaws:aws-android-sdk-kinesis
+  - com.amazonaws:aws-android-sdk-kinesisvideo
+  - com.amazonaws:aws-android-sdk-kinesisvideo-archivedmedia
+  - com.amazonaws:aws-android-sdk-kms
+  - com.amazonaws:aws-android-sdk-lambda
+  - com.amazonaws:aws-android-sdk-lex
+  - com.amazonaws:aws-android-sdk-location
+  - com.amazonaws:aws-android-sdk-logs
+  - com.amazonaws:aws-android-sdk-mobileanalytics
+  - com.amazonaws:aws-android-sdk-mobile-client
+  - com.amazonaws:aws-android-sdk-pinpoint
+  - com.amazonaws:aws-android-sdk-polly
+  - com.amazonaws:aws-android-sdk-rekognition
+  - com.amazonaws:aws-android-sdk-s3
+  - com.amazonaws:aws-android-sdk-ses
+  - com.amazonaws:aws-android-sdk-sns
+  - com.amazonaws:aws-android-sdk-sqs
+  - com.amazonaws:aws-android-sdk-textract
+  - com.amazonaws:aws-android-sdk-transcribe
+  - com.amazonaws:aws-android-sdk-translate
+  - com.amazonaws:dynamodb-key-diagnostics-library
+  - com.amazonaws:DynamoDBLocal
+  - com.amazonaws:dynamodb-lock-client
+  - com.amazonaws:ivs-broadcast
+  - com.amazonaws:ivs-player
+  - com.amazonaws:kinesis-storm-spout
+# disassembled with apktool https://git.asgardius.company/asgardius/s3music/releases then
+# `find -regex '.*/com/amazonaws/.*\.smali' | sed -e 's|^./|  - |g' -e 's/.smali//g' | sort -u | cut -d "/" -f 1-3|sort -u`
+code_signatures:
+  - com/amazonaws/AbortedException
+  - com/amazonaws/AmazonClientException
+  - com/amazonaws/AmazonServiceException$ErrorType
+  - com/amazonaws/AmazonServiceException
+  - com/amazonaws/AmazonWebServiceClient
+  - com/amazonaws/AmazonWebServiceRequest
+  - com/amazonaws/AmazonWebServiceResponse
+  - com/amazonaws/async
+  - com/amazonaws/auth
+  - com/amazonaws/ClientConfiguration
+  - com/amazonaws/cognito
+  - com/amazonaws/DefaultRequest
+  - com/amazonaws/event
+  - com/amazonaws/handlers
+  - com/amazonaws/http
+  - com/amazonaws/HttpMethod
+  - com/amazonaws/internal
+  - com/amazonaws/logging
+  - com/amazonaws/metrics
+  - com/amazonaws/mobile
+  - com/amazonaws/mobileconnectors
+  - com/amazonaws/Protocol
+  - com/amazonaws/regions
+  - com/amazonaws/RequestClientOptions$Marker
+  - com/amazonaws/RequestClientOptions
+  - com/amazonaws/Request
+  - com/amazonaws/ResponseMetadata
+  - com/amazonaws/Response
+  - com/amazonaws/retry
+  - com/amazonaws/SDKGlobalConfiguration
+  - com/amazonaws/ServiceNameFactory
+  - com/amazonaws/services
+  - com/amazonaws/transform
+  - com/amazonaws/util
+# https://aws.amazon.com/asl/
+license: NonFree
