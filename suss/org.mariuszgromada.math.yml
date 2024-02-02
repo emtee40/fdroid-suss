@@ -1,6 +1,8 @@
 name: mXparser
 documentation:
   - https://mathparser.org
+code_signatures:
+  - org/mariuszgromada/math/mxparser
 gradle_signatures:
   - org.mariuszgromada.math:MathParser.org-mXparser
 # https://mathparser.org/mxparser-license/
