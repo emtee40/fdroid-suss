@@ -4,6 +4,6 @@ documentation:
 code_signatures:
   - org/mariuszgromada/math/mxparser
 gradle_signatures:
-  - org.mariuszgromada.math:MathParser.org-mXparser
+  - org.mariuszgromada.math:MathParser.org-mXparser:[5-9]
 # https://mathparser.org/mxparser-license/
 license: NonFree
