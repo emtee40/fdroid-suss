@@ -1,0 +1,7 @@
+Name: greenDAO Database
+# https://github.com/greenrobot/greenDAO/issues/412
+code_signatures:
+  - org/greenrobot
+gradle_signatures:
+  - org.greenrobot:greendao-gradle-plugin
+license: NonFree
