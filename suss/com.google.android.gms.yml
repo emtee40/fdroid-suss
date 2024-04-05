@@ -1,6 +1,8 @@
 gradle_signatures:
   - com.google.android.gms
   - androidx.core:core-google-shortcuts
+  - androidx.credentials:credentials
+  - androidx.credentials:credentials-play-services-auth
   - androidx.media3:media3-cast
   - androidx.media3:media3-datasource-cronet
   - androidx.work:work-gcm
