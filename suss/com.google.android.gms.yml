@@ -1,5 +1,6 @@
 gradle_signatures:
   - com.google.android.gms
+  - com.google.android.ump
   - androidx.core:core-google-shortcuts
   - androidx.credentials:credentials
   - androidx.credentials:credentials-play-services-auth
