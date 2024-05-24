@@ -1,0 +1,6 @@
+Name: FingerprintIdentify
+code_signatures:
+  - com/wei/android/lib/fingerprintidentify
+gradle_signatures:
+  - com.wei.android.lib:fingerprintidentify
+license: NonFree
