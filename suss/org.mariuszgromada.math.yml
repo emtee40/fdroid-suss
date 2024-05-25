@@ -2,7 +2,15 @@ name: mXparser
 documentation:
   - https://mathparser.org
 code_signatures:
-  - org/mariuszgromada/math/mxparser
+  # Classes only in v5+
+  - org/mariuszgromada/math/mxparser/parsertokens/SyntaxStringBuilder # v.5.0.0
+  - org/mariuszgromada/math/mxparser/CalcStepRecord # v.5.0.3
+  - org/mariuszgromada/math/mxparser/CalcStepsRegister # v.5.0.3
+  - org/mariuszgromada/math/mxparser/License # v.5.0.4
+  - org/mariuszgromada/math/mxparser/CloneCache # v.5.2.0
+  - org/mariuszgromada/math/mxparser/ElementAtTheEnd # v.5.2.0
+  - org/mariuszgromada/math/mxparser/CompilationDetails # v.5.2.1
+  - org/mariuszgromada/math/mxparser/CompiledElement # v.5.2.1
 gradle_signatures:
   - org.mariuszgromada.math:MathParser.org-mXparser:[5-9]
 # https://mathparser.org/mxparser-license/
