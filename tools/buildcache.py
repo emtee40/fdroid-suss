@@ -1,11 +1,11 @@
 #! /usr/bin/env python3
 
-from pathlib import Path
-from datetime import datetime
-import os
 import json
-import yaml
+import os
+from datetime import datetime
+from pathlib import Path
 
+import yaml
 
 SIG_SOURCES = {
     'izzy.json': Path('izzy'),

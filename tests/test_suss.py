@@ -2,10 +2,11 @@
 
 import os
 import re
-import validators
 import unittest
-import yaml
 from pathlib import Path
+
+import validators
+import yaml
 
 
 class TestValidate(unittest.TestCase):

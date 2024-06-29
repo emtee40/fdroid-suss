@@ -2,16 +2,16 @@
 
 import json
 import os
-import sys
-import yaml
 import urllib.request
 from pathlib import Path
+
+import yaml
 
 
 def selective_representer(dumper, data):
     out = data.strip()
     return dumper.represent_scalar(
-        u"tag:yaml.org,2002:str",
+        "tag:yaml.org,2002:str",
         out,
         style="|" if len(out) > 60 or '\n' in out else None,
     )
