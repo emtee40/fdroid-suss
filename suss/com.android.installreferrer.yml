@@ -1,0 +1,11 @@
+name: Play Install Referrer Library
+documentation:
+  - https://developer.android.com/google/play/installreferrer/library
+gradle_signatures:
+  - com.android.installreferrer
+code_signatures:
+  - com/android/installreferrer
+license: NonFree
+anti_features:
+  - NonFreeDep
+  - NonFreeNet
