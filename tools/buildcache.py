@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-import yaml
+import ruamel.yaml
 
 SIG_SOURCES = {
     'izzy.json': Path('izzy'),
@@ -18,7 +18,8 @@ CONFIG_DEFAULTS = {'cache_duration': 86400}
 
 def parseyml(filepath):
     with open(filepath, 'r', encoding='utf8') as f:
-        return yaml.safe_load(f)
+        yaml = ruamel.yaml.YAML(typ='safe')
+        return yaml.load(f)
 
 
 if __name__ == '__main__':

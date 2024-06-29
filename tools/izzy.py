@@ -5,21 +5,9 @@ import os
 import urllib.request
 from pathlib import Path
 
-import yaml
-
-
-def selective_representer(dumper, data):
-    out = data.strip()
-    return dumper.represent_scalar(
-        "tag:yaml.org,2002:str",
-        out,
-        style="|" if len(out) > 60 or '\n' in out else None,
-    )
-
+import ruamel.yaml
 
 if __name__ == "__main__":
-    yaml.add_representer(str, selective_representer)
-
     outdir = Path('izzy')
     os.makedirs(outdir, exist_ok=True)
 
@@ -47,7 +35,9 @@ if __name__ == "__main__":
                         out['code_signatures'] = [v.strip('/').replace('/', '\\.')]
                     else:
                         out[k] = v
-                with open(outdir / (name + '.yml'), 'w', encoding='utf8') as fout:
-                    yaml.dump(out, fout, default_flow_style=False)
+                with open(outdir / (id + '.yml'), 'w', encoding='utf8') as fout:
+                    yaml = ruamel.yaml.YAML()
+                    yaml.indent(mapping=2, sequence=4, offset=2)
+                    yaml.dump(out, stream=fout)
                 cnt += 1
         print('updated', cnt, 'files ... OK')

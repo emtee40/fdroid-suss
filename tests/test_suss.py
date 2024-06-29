@@ -5,8 +5,8 @@ import re
 import unittest
 from pathlib import Path
 
+import ruamel.yaml
 import validators
-import yaml
 
 
 class TestValidate(unittest.TestCase):
@@ -17,7 +17,8 @@ class TestValidate(unittest.TestCase):
         """Compile all regexs and try a search"""
         for f in self.all_yml:
             with open(f) as fp:
-                profile = yaml.safe_load(fp)
+                yaml = ruamel.yaml.YAML(typ='safe')
+                profile = yaml.load(fp)
             for k in (
                 'api_key_ids',
                 'artifact_id',
@@ -67,7 +68,8 @@ class TestValidate(unittest.TestCase):
 
         for f in self.all_yml:
             with open(f) as fp:
-                profile = yaml.safe_load(fp)
+                yaml = ruamel.yaml.YAML(typ='safe')
+                profile = yaml.load(fp)
             for k in ('documentation', 'maven_repository', 'website'):
                 v = profile.get(k)
                 if v is None:
