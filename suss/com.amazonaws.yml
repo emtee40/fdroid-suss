@@ -6,6 +6,7 @@ gradle_signatures:
   - com.amazonaws:aws-android-sdk-apigateway-core
   - com.amazonaws:aws-android-sdk-auth-core
   - com.amazonaws:aws-android-sdk-auth-facebook
+  - com.amazonaws:aws-android-sdk-auth-google
   - com.amazonaws:aws-android-sdk-auth-ui
   - com.amazonaws:aws-android-sdk-auth-userpools
   - com.amazonaws:aws-android-sdk-cognito
