@@ -1,3 +1,6 @@
+name: Facebook Android SDK
+documentation:
+  - https://developers.facebook.com/docs/android
 gradle_signatures:
   - com.facebook.android
 # Generated with `find -regex '.*/main/java/.*\.\(kt\|java\)' | sed -e '/samples/d' -e '/testutil/d' -e 's|.*/src/main/java/|  - |g' -e 's/\.\(kt\|java\)//g' | sort -u`
@@ -341,5 +344,4 @@ code_signatures:
   - com/facebook/share/widget/ShareDialog
   - com/facebook/UserSettingsManager
   - com/facebook/WebDialog
-# https://github.com/facebook/facebook-android-sdk/blob/main/LICENSE.txt
 license: NonFree

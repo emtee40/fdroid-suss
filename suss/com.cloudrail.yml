@@ -1,3 +1,6 @@
+name: CloudRail
+documentation:
+  - https://cloudrail.com/
 gradle_signatures:
   - com.cloudrail
 code_signature:

@@ -1,3 +1,6 @@
+name: HyperTrack SDK for Android
+documentation:
+  - https://github.com/hypertrack/sdk-android
 license: NonFree
 gradle_signatures:
   - com.hypertrack(?!:hyperlog)

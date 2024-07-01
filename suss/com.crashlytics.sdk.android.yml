@@ -1,3 +1,6 @@
+name: Firebase Crashlytics
+documentation:
+  - https://firebase.google.com/docs/crashlytics
 gradle_signatures:
   - crashlytics
 code_signatures:

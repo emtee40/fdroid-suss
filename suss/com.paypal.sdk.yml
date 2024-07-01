@@ -1,5 +1,9 @@
+name: PayPal Android SDK
+documentation:
+  - https://github.com/paypal/PayPal-Android-SDK
+  - https://github.com/paypal/android-checkout-sdk
 gradle_signatures:
-  - com.paypal.sdk
+  - com.paypal
 code_signatures:
   - com/paypal
 license: NonFree

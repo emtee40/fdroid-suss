@@ -1,3 +1,6 @@
+name: Flurry Android SDK
+documentation:
+  - https://www.flurry.com/
 gradle_signatures:
   - com.flurry.android
 code_signature:

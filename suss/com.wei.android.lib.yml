@@ -1,4 +1,6 @@
-Name: FingerprintIdentify
+name: FingerprintIdentify
+documentation:
+  - https://github.com/uccmawei/FingerprintIdentify
 code_signatures:
   - com/wei/android/lib/fingerprintidentify
 gradle_signatures:

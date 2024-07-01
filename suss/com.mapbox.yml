@@ -1,3 +1,7 @@
+name: Mapbox Java SDK
+documentation:
+  - https://docs.mapbox.com/android/java/overview/
+  - https://github.com/mapbox/mapbox-java
 license: NonFree
 gradle_signatures:
   - com\.mapbox(?!\.mapboxsdk:mapbox-sdk-(services|geojson|turf):([3-5]))

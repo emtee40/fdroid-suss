@@ -1,6 +1,7 @@
 name: mXparser
 documentation:
   - https://mathparser.org
+  - https://mathparser.org/mxparser-license/
 code_signatures:
   # Classes only in v5+
   - org/mariuszgromada/math/mxparser/parsertokens/SyntaxStringBuilder # v.5.0.0
@@ -13,5 +14,4 @@ code_signatures:
   - org/mariuszgromada/math/mxparser/CompiledElement # v.5.2.1
 gradle_signatures:
   - org.mariuszgromada.math:MathParser.org-mXparser:[5-9]
-# https://mathparser.org/mxparser-license/
 license: NonFree

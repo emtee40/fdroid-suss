@@ -1,6 +1,9 @@
-Name: ObjectBox Database
+name: ObjectBox Database
+documentation:
+  - https://objectbox.io/faq/#license-pricing
 code_signatures:
   - io/objectbox
 gradle_signatures:
+  # The plugin itself is FOSS but it pulls in non free libs
   - io.objectbox:objectbox-gradle-plugin
 license: NonFree

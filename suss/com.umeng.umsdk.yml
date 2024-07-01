@@ -1,5 +1,8 @@
+name: Umeng SDK
+documentation:
+  - https://developer.umeng.com/docs/119267/detail/118584
 gradle_signatures:
-  - com.umeng.umsdk
+  - com.umeng
 code_signatures:
-  - com/umeng/umsdk
+  - com/umeng
 license: NonFree

@@ -1,3 +1,6 @@
+name: Pushy
+documentation:
+  - https://pushy.me/
 gradle_signatures:
   - me.pushy
 code_signatures:

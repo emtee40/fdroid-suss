@@ -1,3 +1,6 @@
+name: BugSense
+documentation:
+  - https://github.com/bugsense/docs/blob/master/android.md
 gradle_signatures:
   - com.bugsense
 code_signatures:

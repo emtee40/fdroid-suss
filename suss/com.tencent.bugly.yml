@@ -1,3 +1,6 @@
+name: Bugly Android SDK
+documentation:
+  - https://bugly.qq.com/
 gradle_signatures:
   - com.tencent.bugly
 code_signatures:

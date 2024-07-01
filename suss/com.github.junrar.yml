@@ -1,3 +1,6 @@
+name: Junrar
+documentation:
+  - https://github.com/junrar/junrar
 gradle_signatures:
   - com.github.junrar:junrar
 code_signatures:

@@ -1,3 +1,6 @@
+name: Crittercism Plugin for Unity Crash Reporting
+documentation:
+  - https://github.com/crittercism/crittercism-unity-android
 gradle_signatures:
   - com.crittercism
 code_signatures:

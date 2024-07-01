@@ -1,3 +1,6 @@
+name: Heyzap
+documentation:
+  - https://www.digitalturbine.com/
 code_signatures:
   - com/heyzap
 license: NonFree

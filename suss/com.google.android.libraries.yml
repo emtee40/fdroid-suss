@@ -1,3 +1,4 @@
+name: Google Android Libraries
 gradle_signatures:
   - com.google.android.libraries(?!.mapsplatform.secrets-gradle-plugin)
 code_signatures:

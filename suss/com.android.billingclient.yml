@@ -1,3 +1,6 @@
+name: BillingClient
+documentation:
+  - https://developer.android.com/google/play/billing/integrate
 gradle_signatures:
   - com.android.billingclient
   - com.google.androidbrowserhelper:billing

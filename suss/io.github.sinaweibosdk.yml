@@ -1,3 +1,6 @@
+name: SinaWeiboSDK
+documentation:
+  - https://github.com/sinaweibosdk/weibo_android_sdk
 gradle_signatures:
   - io.github.sinaweibosdk
 code_signatures:

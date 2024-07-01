@@ -1,3 +1,6 @@
+name: ML Kit
+documentation:
+  - https://developers.google.com/ml-kit
 gradle_signatures:
   - com.google.mlkit
 code_signatures:

@@ -1,3 +1,6 @@
+name: IMA SDK for Android
+documentation:
+  - https://developers.google.com/interactive-media-ads/docs/sdks/android/client-side
 gradle_signatures:
   - com.google.ads
   - com.google.android.exoplayer:extension-ima

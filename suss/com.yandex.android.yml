@@ -1,3 +1,4 @@
+name: Yandex SDK
 license: NonFree
 gradle_signatures:
   - com\.yandex\.android(?!:authsdk)

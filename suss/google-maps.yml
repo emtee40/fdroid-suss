@@ -1,4 +1,6 @@
 name: Google Maps
+documentation:
+  - https://developers.google.com/maps/documentation/android-sdk/overview
 api_key_ids:
   - com\.google\.android\.geo\.API_KEY
   - com\.google\.android\.maps\.v2\.API_KEY
