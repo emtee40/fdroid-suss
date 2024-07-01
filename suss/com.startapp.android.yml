@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - Ads
+  - Tracking
+  - NonFreeComp
+description: partly quite intrusive ad network.
+code_signatures:
+  - com/startapp

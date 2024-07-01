@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - Ads
+  - NonFreeComp
+description: See <a href='https://reports.exodus-privacy.eu.org/en/trackers/124/'>Exodus
+  Privacy</a>.
+code_signatures:
+  - com/yandex/mobile/ads

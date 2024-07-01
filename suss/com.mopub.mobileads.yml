@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - Ads
+  - NonFreeComp
+description: ad framework run by Twitter until 1/2022, then sold to AppLovin.
+code_signatures:
+  - com/mopub/mobileads

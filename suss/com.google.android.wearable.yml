@@ -1,0 +1,4 @@
+license: NonFree
+description: an API for the Android Wear platform.
+code_signatures:
+  - com/google/android/wearable

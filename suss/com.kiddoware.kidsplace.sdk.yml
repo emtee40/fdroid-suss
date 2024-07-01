@@ -1,0 +1,6 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: parental control
+code_signatures:
+  - com/kiddoware/kidsplace/sdk

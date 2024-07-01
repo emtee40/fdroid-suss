@@ -1,0 +1,6 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: library to access the Microsoft Band smartwatch.
+code_signatures:
+  - com/microsoft/band

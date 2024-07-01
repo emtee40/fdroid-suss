@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - NonFreeNet
+description: allows an app to present, process, and fulfill purchases of digital content
+  and subscriptions within your app.
+code_signatures:
+  - com/amazon/device/iap

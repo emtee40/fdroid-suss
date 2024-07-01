@@ -1,0 +1,9 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: Framework to integrate services. Provides e.g. crash reports and analytics.
+  <a rel='nofollow' href='http://fabric.io/blog/fabric-joins-google/' target='_blank'
+  rel='nofollow'>Aquired by Google in 2017</a>.
+code_signatures:
+  - io/fabric/sdk/android

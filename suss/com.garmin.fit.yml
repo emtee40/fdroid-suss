@@ -1,0 +1,6 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: SDK to access the Garmin Fit.
+code_signatures:
+  - com/garmin/fit

@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: integrate video content with <a href='https://developer.android.com/training/home-channels'
+  target='_blank' rel='nofollow'>Home channels for mobile apps</a>.
+code_signatures:
+  - com/google/android/mediahome/video

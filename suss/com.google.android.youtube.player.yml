@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - NonFreeNet
+description: enables you to easily play YouTube videos and display thumbnails of YouTube
+  videos in your Android application.
+code_signatures:
+  - com/google/android/youtube/player

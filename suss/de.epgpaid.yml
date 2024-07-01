@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: access paid <a href='https://en.wikipedia.org/wiki/EPG' target='_blank'>EPG</a>
+  (Electronic Program Guide, for TV) data (after payment, of course). Part of <a href='https://github.com/ds10git/tvbrowserandroid'
+  target='_blank' rel='nofollow'>TVBrowser</a>.
+code_signatures:
+  - de/epgpaid

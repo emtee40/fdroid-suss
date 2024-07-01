@@ -1,0 +1,6 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: the Google Play Store app and its libaries, e.g. for license check.
+code_signatures:
+  - com/google/android/vending

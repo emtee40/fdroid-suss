@@ -1,0 +1,9 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: 'automatically captures every web, mobile, and cloud interaction: clicks,
+  submits, transactions, emails, and more. Retroactively analyze your data without
+  writing code.'
+code_signatures:
+  - com/heapanalytics

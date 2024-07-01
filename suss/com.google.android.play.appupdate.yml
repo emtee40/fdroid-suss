@@ -1,0 +1,6 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: manages operations that allow an app to initiate its own updates.
+code_signatures:
+  - com/google/android/play/appupdate

@@ -1,0 +1,6 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: Huawei's pendant to GMS (Google Mobile Services)
+code_signatures:
+  - com/huawei/hms

@@ -1,0 +1,9 @@
+license: NonFree
+anti_features:
+  - Ads
+  - NonFreeComp
+  - Tracking
+description: mobile engagement platform to execute CRM tactics over iOS, Android &
+  mobile websites.
+code_signatures:
+  - com/batch

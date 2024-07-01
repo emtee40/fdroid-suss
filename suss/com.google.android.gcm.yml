@@ -1,0 +1,10 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - NonFreeNet
+description: <a href='https://en.wikipedia.org/wiki/Google_Cloud_Messaging' target='_blank'>Google
+  Cloud Messaging</a> is a mobile notification service developed by Google that enables
+  third-party application developers to send notification data or information from
+  developer-run servers to app.
+code_signatures:
+  - com/google/android/gcm

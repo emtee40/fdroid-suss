@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - Tracking
+description: a marketing platform designed for mobile that features analytics, automated
+  aggregation, and direct data visualization with direct SQL access.
+code_signatures:
+  - com/tenjin/android/TenjinSDK

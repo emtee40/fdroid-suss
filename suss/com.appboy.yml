@@ -1,0 +1,9 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: Targets customers based on personal interests, location, past purchases,
+  and more; profiles users, segments audiences, and utilizes analytics for targeted
+  advertisements.
+code_signatures:
+  - com/appboy

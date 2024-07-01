@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - NonFreeNet
+description: engage customers with email, push, and in‑app messages and support them
+  with an integrated knowledge base and help desk.
+code_signatures:
+  - io/intercom

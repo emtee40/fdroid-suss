@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: SDK to build unique wearable experiences leveraging Garmin device sensors
+  and features.
+code_signatures:
+  - com/garmin/android/apps/connectmobile/connectiq

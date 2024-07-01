@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: See <a href='https://en.wikipedia.org/wiki/Comscore'>Wikipedia</a> for
+  details.
+code_signatures:
+  - com/comscore

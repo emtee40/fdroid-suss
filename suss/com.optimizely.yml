@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: part of the comScore, Inc. market research community, a leading global
+  market research effort that studies and reports on Internet trends and behavior.
+code_signatures:
+  - com/optimizely

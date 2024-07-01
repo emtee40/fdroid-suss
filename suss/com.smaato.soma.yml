@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - Ads
+  - NonFreeComp
+description: a mobile ad platform that includes video ads.
+code_signatures:
+  - com/smaato/soma

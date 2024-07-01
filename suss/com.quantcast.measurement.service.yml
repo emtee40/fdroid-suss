@@ -1,0 +1,10 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: processes real-time data at the intersection of commerce and culture,
+  providing useful, actionable insights for brands and publishers. See <a rel='nofollow'
+  href='https://www.crunchbase.com/organization/quantcast'>Crunchbase</a> and <a href='https://reports.exodus-privacy.eu.org/en/trackers/133/'>Exodus
+  Privacy</a>.
+code_signatures:
+  - com/quantcast/measurement/service

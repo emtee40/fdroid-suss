@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - NonFreeNet
+description: a closed-source API for the Deezer music streaming service.
+code_signatures:
+  - com/deezer/sdk

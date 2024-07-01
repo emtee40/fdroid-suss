@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: complete mobile user engagement solution (power local, In-application
+  evaluations and audits, input, user support, mobile reviews and informing).
+code_signatures:
+  - com/askingpoint

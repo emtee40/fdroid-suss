@@ -1,0 +1,6 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: Framework to develop apps for Android Auto
+code_signatures:
+  - com/google/android/apps/auto/sdk

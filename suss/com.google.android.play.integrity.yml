@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - NonFreeNet
+description: helps you check that interactions and server requests are coming from
+  your genuine app binary running on a genuine Android device.
+code_signatures:
+  - com/google/android/play/integrity

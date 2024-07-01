@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - Ads
+  - NonFreeComp
+description: an interface for views used to retrieve and display Amazon ads.
+code_signatures:
+  - com/amazon/device/ads

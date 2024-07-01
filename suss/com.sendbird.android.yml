@@ -1,0 +1,9 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - NonFreeNet
+  - Tracking
+description: an easy-to-use Chat API, native Chat SDKs, and a fully-managed chat platform
+  on the backend means faster time-to-market.
+code_signatures:
+  - com/sendbird/android

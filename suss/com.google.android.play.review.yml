@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: lets you prompt users to submit Play Store ratings and reviews without
+  the inconvenience of leaving your app or game.
+code_signatures:
+  - com/google/android/play/review

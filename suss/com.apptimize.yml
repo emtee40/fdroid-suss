@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: See <a href='https://reports.exodus-privacy.eu.org/en/trackers/135/'>Exodus
+  Privacy</a> and <a rel='nofollow' href='https://www.crunchbase.com/organization/apptimize'>Crunchbase</a>.
+code_signatures:
+  - com/apptimize

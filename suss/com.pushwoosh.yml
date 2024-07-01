@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: mobile analytics under the cover of push messaging.
+code_signatures:
+  - com/pushwoosh

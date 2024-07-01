@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - NonFreeNet
+description: allows your application to interact with the Spotify app service. (Note
+  that while the SDK repo claims Apache license, the code is not available there)
+code_signatures:
+  - com/spotify/sdk

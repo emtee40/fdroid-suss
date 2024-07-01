@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: offers specialized widgets and service components for extended functions
+  of the Samsung Android devices.
+code_signatures:
+  - com/samsung/android/sdk/look

@@ -1,0 +1,10 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: organizations can leverage first-party customer data and profiles to
+  fuel omni-channel action and insight using their existing technology investments.
+  See <a rel='nofollow' href='https://www.crunchbase.com/organization/ensighten'>Crunchbase</a>
+  and <a href='https://reports.exodus-privacy.eu.org/en/trackers/151/'>Exodus Privacy</a>.
+code_signatures:
+  - com/ensighten

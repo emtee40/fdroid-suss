@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: a data visualization library for easily creating interactive charts in
+  Android apps.
+code_signatures:
+  - com/anychart

@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: proprietary part of the <a href='https://github.com/Tornaco/Thanox' target='_blank'
+  rel='nofollow noopener'>Thanox</a> application
+code_signatures:
+  - tornaco/android/sec

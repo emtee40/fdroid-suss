@@ -1,0 +1,6 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: enables Daydream and Cardboard app development on Android.
+code_signatures:
+  - com/google/vr

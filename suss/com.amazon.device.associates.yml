@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - Ads
+  - NonFreeComp
+description: library for Amazon’s affiliate marketing program.
+code_signatures:
+  - com/amazon/device/associates

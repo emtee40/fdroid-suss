@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: offers high quality Xamarin Forms UI components and Visual Studio item
+  templates to enable every developer.
+code_signatures:
+  - com/telerik/android

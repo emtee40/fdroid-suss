@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: provides a stable environment in which you can use a variety features
+  by connecting accessories to your mobile device.
+code_signatures:
+  - com/samsung/accessory

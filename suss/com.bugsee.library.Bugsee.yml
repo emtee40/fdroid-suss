@@ -1,0 +1,9 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: see video, network and logs that led to bugs and crashes in live apps.
+  No need to reproduce intermittent bugs. With Bugsee, all the crucial data is always
+  there.
+code_signatures:
+  - com/bugsee/library/Bugsee

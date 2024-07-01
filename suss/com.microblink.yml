@@ -1,0 +1,9 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - NonFreeNet
+  - Tracking
+description: verify users at scale and automate your document-based workflow with
+  computer vision tech built for a remote world.
+code_signatures:
+  - com/microblink

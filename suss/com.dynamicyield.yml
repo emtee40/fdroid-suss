@@ -1,0 +1,10 @@
+license: NonFree
+anti_features:
+  - Ads
+  - NonFreeComp
+  - Tracking
+description: targeted advertising. Tracks user via location (GPS, WiFi, location data).
+  Collects PII, profiling. See <a href='https://reports.exodus-privacy.eu.org/en/trackers/152/'>Exodus
+  Privacy</a> for more details.
+code_signatures:
+  - com/dynamicyield

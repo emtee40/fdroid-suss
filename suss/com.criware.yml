@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - NonFreeAssets
+description: audio and video solutions that can be integrated with popular game engines.
+code_signatures:
+  - com/criware

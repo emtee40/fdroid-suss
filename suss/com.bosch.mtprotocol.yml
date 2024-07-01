@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+description: simplify and manage use of Bosch GLM and PLR laser rangefinders with
+  Bluetooth connectivity.
+code_signatures:
+  - com/bosch/mtprotocol

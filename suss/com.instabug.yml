@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: In-App Feedback and Bug Reporting for Mobile Apps.
+code_signatures:
+  - com/instabug

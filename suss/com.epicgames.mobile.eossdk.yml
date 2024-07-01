@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - NonFreeNet
+description: integrate games with Epic Account Services and Epic Games Store
+code_signatures:
+  - com/epicgames/mobile/eossdk

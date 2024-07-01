@@ -1,0 +1,7 @@
+license: NonFree
+anti_features:
+  - NonFreeComp
+  - Tracking
+description: a mobile & attribution analytics platform.
+code_signatures:
+  - com/appsflyer

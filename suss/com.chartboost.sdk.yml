@@ -1,0 +1,8 @@
+license: NonFree
+anti_features:
+  - Ads
+  - NonFreeComp
+description: create customized interstitial and video ads, promote new games, and
+  swap traffic with one another. For more details, see <a href='https://en.wikipedia.org/wiki/Chartboost'>Wikipedia</a>.
+code_signatures:
+  - com/chartboost/sdk
