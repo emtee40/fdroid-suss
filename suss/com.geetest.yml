@@ -1,0 +1,8 @@
+name: GeeTest
+documentation:
+  - https://docs.geetest.com/
+gradle_signatures:
+  - com.geetest
+code_signatures:
+  - com/geetest
+license: NonFree
