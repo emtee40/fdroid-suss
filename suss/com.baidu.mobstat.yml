@@ -1,0 +1,8 @@
+name: 百度移动统计SDK
+documentation:
+  - https://mtj.baidu.com/web/sdk/index
+gradle_signatures:
+  - com.baidu.mobstat
+code_signatures:
+  - com/baidu/mobstat
+license: NonFree
