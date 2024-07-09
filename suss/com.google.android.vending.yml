@@ -1,6 +1,10 @@
 license: NonFree
+documentation:
+  - https://github.com/google/play-licensing/tree/master/lvl_library/src/main
+  - https://github.com/googlearchive/play-apk-expansion/tree/master/zip_file/src/com/google/android/vending/expansion/zipfile
+  - https://github.com/googlearchive/play-apk-expansion/tree/master/apkx_library/src/com/google/android/vending/expansion/downloader
 anti_features:
   - NonFreeComp
-description: the Google Play Store app and its libaries, e.g. for license check.
+description: the Google Play Store app and its libaries, parts are FOSS and get vendored in libs as they are
 code_signatures:
-  - com/google/android/vending
+  - com/google/android/vending/(?!licensing|expansion)
