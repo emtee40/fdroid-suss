@@ -1,4 +1,9 @@
 license: NonFree
-description: an API for the Android Wear platform.
+description: an API for the Android Wear platform
+gradle_signatures:
+  - com.google.android.support:wearable
+  - com.google.android.wearable:wearable
+documentation:
+  - androidx.wear:wear stub https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-master-release/wear/wear/src/androidTest/java/com/google/android/wearable/compat/WearableActivityController.java#26
 code_signatures:
-  - com/google/android/wearable
+  - com/google/android/wearable/(?!compat/WearableActivityController)
