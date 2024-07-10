@@ -7,4 +7,3 @@ documentation:
   - androidx.wear:wear stub https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-master-release/wear/wear/src/androidTest/java/com/google/android/wearable/compat/WearableActivityController.java#26
 code_signatures:
   - com/google/android/wearable/(?!compat/WearableActivityController)
-  
