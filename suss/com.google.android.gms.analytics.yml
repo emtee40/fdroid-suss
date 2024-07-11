@@ -2,6 +2,6 @@ license: NonFree
 anti_features:
   - NonFreeComp
   - Tracking
-description: a web analytics service offered by Google that tracks and reports.
+description: a web analytics service offered by Google that tracks and reports. 'NoAnalytics' srclib will provide stubs for these classes.
 code_signatures:
   - com/google/android/apps/analytics
