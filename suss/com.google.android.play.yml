@@ -9,6 +9,7 @@ gradle_signatures:
   - com.google.android.play:review
   - androidx.navigation:navigation-dynamic-features
   - com.github.SanojPunchihewa:InAppUpdater
+  - com.suddenh4x.ratingdialog:awesome-app-rating
 code_signatures:
   - com/google/android/play/core
 license: NonFree
