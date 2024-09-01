@@ -19,6 +19,7 @@ gradle_signatures:
   - com.yayandroid:locationmanager
   - play-services
   - xyz.belvi.mobilevision:barcodescanner
+  - com.google.api-client:google-api-client-android
 code_signatures:
   - com/google/android/gms
 license: NonFree
