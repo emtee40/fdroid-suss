@@ -2,6 +2,7 @@ name: Google Mobile Services
 documentation:
   - https://www.android.com/gms/
 gradle_signatures:
+  - com.google.gms
   - com.google.android.gms(?!.oss-licenses-plugin)
   - com.google.android.ump
   - androidx.core:core-google-shortcuts
