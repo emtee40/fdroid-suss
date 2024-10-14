@@ -6,7 +6,6 @@ gradle_signatures:
   - com.google.android.gms(?!.oss-licenses-plugin)
   - com.google.android.ump
   - androidx.core:core-google-shortcuts
-  - androidx.credentials:credentials
   - androidx.credentials:credentials-play-services-auth
   - androidx.media3:media3-cast
   - androidx.media3:media3-datasource-cronet
