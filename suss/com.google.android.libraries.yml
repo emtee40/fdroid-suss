@@ -2,8 +2,10 @@ name: Google Android Libraries
 gradle_signatures:
   - com.google.android.libraries(?!.mapsplatform.secrets-gradle-plugin)
 code_signatures:
-  - com/google/android/libraries
+  - com/google/android/libraries(?!/accessibility)
 gradle_signatures_negative_examples:
   # 'secrets-gradle-plugin', https://github.com/google/secrets-gradle-plugin/blob/master/LICENSE
   - classpath "com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1"
+code_signatures_negative_examples:
+  - com/google/android/libraries/accessibility
 license: NonFree

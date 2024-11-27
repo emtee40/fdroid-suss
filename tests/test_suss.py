@@ -59,6 +59,27 @@ class TestValidate(unittest.TestCase):
                             with self.subTest(out):
                                 self.assertTrue(matches == 0)
 
+                    if k == 'code_signatures':
+                        code_signatures = []
+                        for pat in v:
+                            code_signatures.append(re.compile(pat))
+                        for p in profile.get('code_signatures_positive_examples', []):
+                            matches = 0
+                            for s in code_signatures:
+                                if re.search(s, p):
+                                    matches += 1
+                            out = '%s: %s should match' % (f_rel, p)
+                            with self.subTest(out):
+                                self.assertTrue(matches > 0)
+                        for n in profile.get('code_signatures_negative_examples', []):
+                            matches = 0
+                            for s in code_signatures:
+                                if re.search(s, n):
+                                    matches += 1
+                            out = '%s: %s should not match' % (f_rel, n)
+                            with self.subTest(out):
+                                self.assertTrue(matches == 0)
+
     def test_validate_all_urls(self):
         """Validate all fields that should contain URLs"""
 
