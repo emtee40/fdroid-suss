@@ -9,6 +9,7 @@ gradle_signatures:
   - androidx.credentials:credentials-play-services-auth
   - androidx.media3:media3-cast
   - androidx.media3:media3-datasource-cronet
+  - androidx.wear:wear-remote-interactions
   - androidx.work:work-gcm
   - com.google.android.exoplayer:extension-cast
   - com.google.android.exoplayer:extension-cronet
