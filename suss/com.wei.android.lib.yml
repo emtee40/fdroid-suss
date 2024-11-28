@@ -6,4 +6,6 @@ code_signatures:
 gradle_signatures:
   - com.wei.android.lib:fingerprintidentify
   - com.github.uccmawei:FingerprintIdentify
+gradle_signatures_positive_examples:
+  - implementation "com.github.uccmawei:fingerprintidentify:${safeExtGet("fingerprintidentify", "1.2.6")}"
 license: NonFree
