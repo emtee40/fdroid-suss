@@ -41,7 +41,7 @@ class TestValidate(unittest.TestCase):
                     if k == 'gradle_signatures':
                         gradle_signatures = []
                         for pat in v:
-                            gradle_signatures.append(re.compile(pat))
+                            gradle_signatures.append(re.compile(pat, re.IGNORECASE))
                         for p in profile.get('gradle_signatures_positive_examples', []):
                             matches = 0
                             for s in gradle_signatures:
