@@ -1,0 +1,8 @@
+name: RevenueCat Purchases
+documentation:
+  - https://www.revenuecat.com/
+gradle_signatures:
+  - com.revenuecat.purchases
+code_signatures:
+  - com/revenuecat/purchases
+license: NonFree
