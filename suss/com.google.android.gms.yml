@@ -18,7 +18,7 @@ gradle_signatures:
   - com.cloudinary:cloudinary-android.*:2\.[12]\.
   - com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender
   - com.yayandroid:locationmanager
-  - play-services
+  - (?<!org.microg.gms:)play-services
   - xyz.belvi.mobilevision:barcodescanner
   - com.google.api-client:google-api-client-android
 code_signatures:
