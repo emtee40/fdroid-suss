@@ -3,6 +3,7 @@ documentation:
   - https://developers.google.com/ml-kit
 gradle_signatures:
   - com.google.mlkit
+  - io.github.g00fy2.quickie
 code_signatures:
   - com/google/mlkit
 license: NonFree
